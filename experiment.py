@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from Train import Train
 from rails_detection.interpolation import Interpolate
 import cv2
 import os
