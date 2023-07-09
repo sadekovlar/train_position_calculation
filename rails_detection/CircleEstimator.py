@@ -1,8 +1,6 @@
 import numpy as np
-
 from pyar import Point3D
 from math import sin, cos, radians
-
 
 class CircleEstimator:
 
@@ -103,5 +101,4 @@ class CircleEstimator:
             wheel_angle = np.pi / 2 - np.arctan(tan)
         else:
             wheel_angle = -np.pi / 2 - np.arctan(tan)
-
         return wheel_angle
